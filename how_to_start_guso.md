@@ -14,3 +14,6 @@
   You should also see a checkbox near each lib in column 'Export'.
   if you didn't import, you should goto gosu lib to import
   "gosu-core-1.14.2.jar" and "gosu-core-api-1.14.2.jar" and "gw-asm-all-5.0.4.jar".
+  otherwise you will get "class not found exception".
+- Project Structure -> Modules -> Dependencies， set Module SDK as java1.8, not Project SDK(1.8)
+  otherwise you will get " NoClassDefFoundError: com/intellij/psi/tree/StubFileElementType"
